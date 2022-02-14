@@ -1,0 +1,16 @@
+{
+    "editor.fontLigatures": null,
+    "colorize.languages": [
+        "javascript",
+        "typescript",
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg"
+    ]
+}
