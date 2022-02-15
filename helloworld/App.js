@@ -15,19 +15,28 @@ import {
   FlatList,
   TouchableWithoutFeedback,
 } from 'react-native';
-
+import {NavigationContainer} from '@react-navigation/native';
 import Note from './components/Note';
+import BottomNav from './components/BottomNav';
 
 const App = () => {
   return (
-    <View>
-      <Note />
-    </View>
+    // <View style={styles.body}>
+    <NavigationContainer style={styles.bottomNav}>
+      <BottomNav />
+    </NavigationContainer>
+    // </View>
+    // <NavigationContainer>
+    //   <BottomNav />
+    // </NavigationContainer>
   );
 };
 
 const styles = StyleSheet.create({
-  body: {},
+  bottomNav: {},
+  body: {
+    marginTop: 760,
+  },
 });
 
 export default App;
