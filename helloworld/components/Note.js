@@ -71,7 +71,7 @@ const s = StyleSheet.create({
   title: {
     // top: 4,
     left: 0,
-    fontFamily: 'Lato',
+    fontFamily: 'Lato-Bold',
     fontStyle: 'normal',
     fontWeight: 'bold',
     fontSize: 14,
